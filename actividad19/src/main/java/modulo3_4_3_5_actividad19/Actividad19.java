@@ -4,6 +4,11 @@ import javax.swing.JOptionPane;
 
 public class Actividad19 {
     public static void main(String[] args) throws Exception {
-        // TODO: pide nombre y ciudad con JOptionPane y muestra un mensaje final.
+    	String nombre = JOptionPane.showInputDialog("Introduce tu nombre:");
+        String ciudad = JOptionPane.showInputDialog("Introduce tu ciudad:");
+
+        JOptionPane.showMessageDialog(null, "Hola " + nombre + ", vives en " + ciudad + ".");
     }
+    // TODO: pide nombre y ciudad con JOptionPane y muestra un mensaje final.
+    
 }
