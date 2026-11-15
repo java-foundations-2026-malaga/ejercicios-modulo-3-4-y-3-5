@@ -6,6 +6,8 @@ public class Actividad04 {
         String b = "5";
         String resultado = a + b;
 
-        System.out.println("Resultado: " + resultado);
+        int resultadoEntero = Integer.parseInt(a) + Integer.parseInt(b);
+
+                System.out.println("Resultado: " + resultadoEntero);
     }
 }

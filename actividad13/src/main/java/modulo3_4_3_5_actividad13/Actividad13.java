@@ -6,7 +6,8 @@ public class Actividad13 {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
         String edad = input.nextLine();
-        int proximaEdad = edad + 1;
+        int edadInt = Integer.parseInt(edad);
+        int proximaEdad = edadInt + 1;
 
         System.out.println("Edad proximo ano: " + proximaEdad);
     }

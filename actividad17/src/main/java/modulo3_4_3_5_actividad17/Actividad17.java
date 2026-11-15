@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Actividad17 {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
-
-        // TODO: lee la edad y calcula la edad del proximo anio.
+        System.out.print("Ingrese su edad: ");
+        int edad = input.nextInt();
+        int proximaEdad = edad + 1;
+        System.out.println("Edad proximo ano: " + proximaEdad);
     }
 }

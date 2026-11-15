@@ -6,6 +6,7 @@ public class Actividad14 {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
         int edad = input.nextInt();
+        input.nextLine(); // Consumir el salto de línea después del entero
         String nombre = input.nextLine();
 
         System.out.println("Nombre: " + nombre);

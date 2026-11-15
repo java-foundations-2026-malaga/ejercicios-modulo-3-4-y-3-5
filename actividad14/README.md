@@ -3,7 +3,6 @@
 ## Corrige mezcla de nextInt y nextLine
 
 El programa lee primero la edad y despues el nombre completo. Consume el salto de linea antes de leer el nombre completo.
-
 ## Objetivo
 
 - Leer el codigo base y corregirlo o completarlo.
