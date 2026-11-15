@@ -7,5 +7,8 @@ public class Actividad16 {
         Scanner input = new Scanner(System.in);
 
         // TODO: pide el nombre y muestra el saludo.
+        System.out.println("Escribe tu nombre: ");
+        String nombre = input.next();
+        System.out.println("Hola, " + nombre);
     }
 }

@@ -5,5 +5,9 @@ public class Actividad08 {
         int puntos = 120;
 
         // TODO: guarda puntos en un double y muestra ambos valores.
+        double puntosdoble = (double)puntos;
+        
+        System.out.println("Puntos int: " + puntos);
+        System.out.println("Puntos double: " + puntosdoble);
     }
 }

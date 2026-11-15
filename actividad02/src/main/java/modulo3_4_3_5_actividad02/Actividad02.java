@@ -4,7 +4,7 @@ public class Actividad02 {
     public static void main(String[] args) throws Exception {
         int a = 5;
         int b = 2;
-        double resultado = a / b;
+        double resultado = (double)a / (double)b;
 
         System.out.println("Resultado: " + resultado);
     }

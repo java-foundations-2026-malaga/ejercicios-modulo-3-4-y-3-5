@@ -8,5 +8,16 @@ public class Actividad20 {
         Scanner input = new Scanner(datos);
 
         // TODO: lee nombre, producto, cantidad y precio.
+        String nombre = input.next();
+        String producto = input.next();
+        int cantidad = input.nextInt();
+        double precio = input.nextDouble();
+        
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Producto: " + producto);
+        System.out.println("Cantidad: " + cantidad);
+        System.out.println("Precio: " + precio);
+        
+        input.close();
     }
 }

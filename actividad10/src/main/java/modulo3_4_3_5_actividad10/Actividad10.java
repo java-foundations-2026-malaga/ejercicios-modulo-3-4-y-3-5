@@ -6,5 +6,8 @@ public class Actividad10 {
         int denominador = 2;
 
         // TODO: calcula el resultado decimal usando casting.
+        double resultado = (double)numerador/denominador;
+        
+        System.out.println("Resultado: " + resultado);
     }
 }

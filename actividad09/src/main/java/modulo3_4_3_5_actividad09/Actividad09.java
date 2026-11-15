@@ -5,5 +5,8 @@ public class Actividad09 {
         double nota = 8.75;
 
         // TODO: aplica casting a int y muestra los valores.
+        int nota1  =(int)nota;
+        System.out.println("Nota original: " + nota);
+        System.out.println("Parte entera: " + nota1);
     }
 }

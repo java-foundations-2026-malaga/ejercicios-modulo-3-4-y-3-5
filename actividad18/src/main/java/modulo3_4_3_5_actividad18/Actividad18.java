@@ -7,5 +7,11 @@ public class Actividad18 {
         Scanner input = new Scanner(System.in);
 
         // TODO: lee dos enteros y muestra la suma.
+        System.out.println("Escribe dos enteros: ");
+        int a = input.nextInt();
+        int b = input.nextInt();
+        
+        int suma = a + b;
+        System.out.println("Suma: "+ suma);
     }
 }
