@@ -5,5 +5,8 @@ public class Actividad06 {
         String edadTexto = "15";
 
         // TODO: convierte a int y calcula la edad del proximo anio.
+        int edadNumero = Integer.parseInt(edadTexto);
+        int edadNumeroProxAnio = edadNumero + 1;
+        System.out.println("Edad actual: "+edadNumero+"\nEdad proximo anio: "+edadNumeroProxAnio);
     }
 }

@@ -5,5 +5,10 @@ import javax.swing.JOptionPane;
 public class Actividad19 {
     public static void main(String[] args) throws Exception {
         // TODO: pide nombre y ciudad con JOptionPane y muestra un mensaje final.
+    	String nombre = JOptionPane.showInputDialog("Nombre:");
+        String ciudad = JOptionPane.showInputDialog("Ciudad:");
+        
+
+        JOptionPane.showMessageDialog(null, "El nombe es: " + nombre + " y la ciudad es" + ciudad);
     }
 }

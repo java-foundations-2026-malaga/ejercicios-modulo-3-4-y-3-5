@@ -4,7 +4,8 @@ public class Actividad10 {
     public static void main(String[] args) throws Exception {
         int numerador = 7;
         int denominador = 2;
-
+        double result = (double) numerador/denominador;
         // TODO: calcula el resultado decimal usando casting.
+        System.out.println("Resultado: "+result);
     }
 }

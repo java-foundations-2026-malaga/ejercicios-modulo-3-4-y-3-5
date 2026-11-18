@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 public class Actividad15 {
     public static void main(String[] args) throws Exception {
         String precio = JOptionPane.showInputDialog("Precio:");
-        String total = precio * 2;
+        int total = Integer.parseInt(precio) * 2;
 
         JOptionPane.showMessageDialog(null, "Total: " + total);
     }
