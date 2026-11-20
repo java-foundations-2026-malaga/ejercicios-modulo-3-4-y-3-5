@@ -4,7 +4,10 @@ public class Actividad04 {
     public static void main(String[] args) throws Exception {
         String a = "10";
         String b = "5";
-        String resultado = a + b;
+        int numeroA = Integer.parseInt(a);
+        int numeroB = Integer.parseInt(b);
+
+        int resultado = numeroA + numeroB;
 
         System.out.println("Resultado: " + resultado);
     }
