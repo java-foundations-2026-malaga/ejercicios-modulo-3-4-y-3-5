@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Actividad12 {
     public static void main(String[] args) throws Exception {
-        Scanner input = Scanner(System.in);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Escribe tu nombre:");
         String nombre = input.nextLine();
 
         System.out.println("Hola, " + nombre);

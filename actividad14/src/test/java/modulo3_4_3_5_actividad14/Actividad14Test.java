@@ -21,8 +21,8 @@ public class Actividad14Test {
 
     @Test
     void pruebaConOtrosDatos() throws Exception {
-        String salida = ejecutarMain("33\nJuan Carlos Ruiz\n");
-        comprobarContiene(salida, "Nombre: Juan Carlos Ruiz", "Edad: 33");
+        String salida = ejecutarMain("20\nAna Maria\n");
+        comprobarContiene(salida, "Nombre: Ana MAria", "Edad: 20");
     }
 
     private static String ejecutarMain(String entrada) throws Exception {

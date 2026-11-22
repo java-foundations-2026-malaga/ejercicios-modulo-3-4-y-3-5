@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Actividad16 {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
+        System.out.println("Dame tu nombre: ");
+        
+        System.out.println("Hola "+ input.nextLine());
 
         // TODO: pide el nombre y muestra el saludo.
     }

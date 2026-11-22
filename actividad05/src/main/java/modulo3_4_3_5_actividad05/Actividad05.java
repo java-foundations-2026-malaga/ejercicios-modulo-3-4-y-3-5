@@ -4,7 +4,7 @@ public class Actividad05 {
     public static void main(String[] args) throws Exception {
         double precio = 12.99;
         int cantidad = 2;
-        int total = precio * cantidad;
+        double total = precio * cantidad;
 
         System.out.println("Total: " + total);
     }
