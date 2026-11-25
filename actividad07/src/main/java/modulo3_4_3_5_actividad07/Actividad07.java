@@ -5,5 +5,7 @@ public class Actividad07 {
         String precioTexto = "7.5";
 
         // TODO: convierte a double y calcula dos unidades.
+        System.out.println("Precio unitario: " + precioTexto);
+        System.out.println("Precio dos unidades: " + Double.parseDouble(precioTexto) * 2.0);
     }
 }
